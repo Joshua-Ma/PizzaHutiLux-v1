@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		13E0BF479CE591EF07397C98 /* Pods_PizzaHutiLux_v1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F97C6BCA8B3336AD2043357 /* Pods_PizzaHutiLux_v1Tests.framework */; };
+		425A20B2255B5D430085BCF1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425A20B1255B5D430085BCF1 /* MapViewController.swift */; };
 		42B34F6425532597005A2876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B34F6325532597005A2876 /* AppDelegate.swift */; };
 		42B34F6625532597005A2876 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B34F6525532597005A2876 /* SceneDelegate.swift */; };
 		42B34F6825532597005A2876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B34F6725532597005A2876 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 		2799B8D8F625907CBA46CFB3 /* Pods-PizzaHutiLux-v1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaHutiLux-v1.release.xcconfig"; path = "Target Support Files/Pods-PizzaHutiLux-v1/Pods-PizzaHutiLux-v1.release.xcconfig"; sourceTree = "<group>"; };
 		3A78B5278989641809763713 /* Pods-PizzaHutiLux-v1-PizzaHutiLux-v1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaHutiLux-v1-PizzaHutiLux-v1UITests.release.xcconfig"; path = "Target Support Files/Pods-PizzaHutiLux-v1-PizzaHutiLux-v1UITests/Pods-PizzaHutiLux-v1-PizzaHutiLux-v1UITests.release.xcconfig"; sourceTree = "<group>"; };
 		3F97C6BCA8B3336AD2043357 /* Pods_PizzaHutiLux_v1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PizzaHutiLux_v1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		425A20B1255B5D430085BCF1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		42B34F6025532597005A2876 /* PizzaHutiLux-v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PizzaHutiLux-v1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B34F6325532597005A2876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42B34F6525532597005A2876 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				42B34F6C25532598005A2876 /* Assets.xcassets */,
 				42B34F6E25532598005A2876 /* LaunchScreen.storyboard */,
 				42B34F7125532598005A2876 /* Info.plist */,
+				425A20B1255B5D430085BCF1 /* MapViewController.swift */,
 			);
 			path = "PizzaHutiLux-v1";
 			sourceTree = "<group>";
@@ -165,7 +168,6 @@
 				001D93B87BB196F82303C396 /* Pods-PizzaHutiLux-v1Tests.debug.xcconfig */,
 				1F518C51C1DFE2F01B8573B6 /* Pods-PizzaHutiLux-v1Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -410,6 +412,7 @@
 				42B34F6825532597005A2876 /* ViewController.swift in Sources */,
 				42B34F6425532597005A2876 /* AppDelegate.swift in Sources */,
 				42B34F6625532597005A2876 /* SceneDelegate.swift in Sources */,
+				425A20B2255B5D430085BCF1 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
